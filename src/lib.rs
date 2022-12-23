@@ -67,7 +67,7 @@ pub mod i2c;
 pub mod spi;
 
 use core::marker::PhantomData;
-use embedded_hal::delay::blocking::DelayUs;
+use embedded_hal::delay::DelayUs;
 
 #[cfg(feature = "serde")]
 use serde::Serialize;
